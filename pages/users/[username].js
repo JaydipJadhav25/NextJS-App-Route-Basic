@@ -27,6 +27,10 @@ const DyanamicPage = () =>{
             >
                 To go Home  Using replace
             </button>
+   <hr/>
+            <button
+            onClick={e=> router.reload()}
+            >ReLoad Page</button>
         </div>
         );
     
